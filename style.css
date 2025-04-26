@@ -130,10 +130,11 @@ padding: 0% 1%;
 }
 .footer{
     background-color: #003f58;
-    padding: 1.5rem;
-    display: block;
-    text-align: right;
-    justify-content: space-between;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
 }
 .footer-logo{
     text-decoration: none;
@@ -142,8 +143,46 @@ padding: 0% 1%;
     padding: 0.5rem;
     text-indent: 1rem;
 }
+.footer-location{
+    width: 20rem;
+}
 .footer-location img{
-    width: 30%;
+    width: 100%;
 
 
+}
+.header {      
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px 20px;
+ }
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+}
+            
+.section {
+    margin-bottom: 5%;
+}
+            
+.section h2 {
+    color: #a64200;
+    margin-bottom: 15px;
+}
+            
+.section p {
+    padding: 1%;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.goals-list{
+    padding: 5%;
+}
+
+.goals-list li {
+    padding: 1%;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
