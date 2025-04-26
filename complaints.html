@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الرؤية والرسالة والأهداف</title>
+    <title>الشكاوى والمقترحات</title>
     <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -60,41 +60,60 @@
                         </div>
                         </div>
                         <div class="dropdown">
-                            <a class="dropbtn" href="complaints.html" >الشكاوى والمقترحات</a>
+                            <a class="dropbtn" href="" >الشكاوى والمقترحات</a>
                         </div>
     </ul>
 
-    <header class="header">
-        <h1>الرؤية والرسالة والأهداف</h1>
-    </header>
-
-    <div class="content">
-
-        <section class="section">
-            <h2><svg xmlns="http://www.w3.org/2000/svg" height="5%" viewBox="0 -960 960 960" width="5%" fill="#a64200"><path d="M480-80q-26 0-47-12.5T400-126q-33 0-56.5-23.5T320-206v-142q-59-39-94.5-103T190-590q0-121 84.5-205.5T480-880q121 0 205.5 84.5T770-590q0 77-35.5 140T640-348v142q0 33-23.5 56.5T560-126q-12 21-33 33.5T480-80Zm-80-126h160v-36H400v36Zm0-76h160v-38H400v38Zm-8-118h58v-108l-88-88 42-42 76 76 76-76 42 42-88 88v108h58q54-26 88-76.5T690-590q0-88-61-149t-149-61q-88 0-149 61t-61 149q0 63 34 113.5t88 76.5Zm88-162Zm0-38Z"/></svg> الرؤية</h2>
-            <p>المساهمة في تحقيق الاستقرار الأسري وتحسين جودة الحياة وبناء أسرة سعيدة.</p>
-        </section>
-
-        <section class="section">
-            <h2><svg xmlns="http://www.w3.org/2000/svg" height="5%" viewBox="0 -960 960 960" width="5%" fill="#a64200"><path d="M280-600v-80h560v80H280Zm0 160v-80h560v80H280Zm0 160v-80h560v80H280ZM160-600q-17 0-28.5-11.5T120-640q0-17 11.5-28.5T160-680q17 0 28.5 11.5T200-640q0 17-11.5 28.5T160-600Zm0 160q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520q17 0 28.5 11.5T200-480q0 17-11.5 28.5T160-440Zm0 160q-17 0-28.5-11.5T120-320q0-17 11.5-28.5T160-360q17 0 28.5 11.5T200-320q0 17-11.5 28.5T160-280Z"/></svg> الرسالة</h2>
-            <p>تقديم برامج تنموية تكافلية وحلول علمية وعملية للمشكلات النفسية والاجتماعية في المنطقة الشرقية.</p>
-        </section>
-
-        <section class="section">
-            <h2><svg xmlns="http://www.w3.org/2000/svg" height="5%" viewBox="0 -960 960 960" width="5%" fill="#a64200"><path d="M120-240v-80h240v80H120Zm0-200v-80h480v80H120Zm0-200v-80h720v80H120Z"/></svg> الأهداف</h2>
-            <ol class="goals-list">
-                <li>دعم جهود الجهات الحكومیة والجمعیات ذات العلاقة إلى تعزیز وحمایة الأفراد من العنف المنزلي.</li>
-                <li>زیادة الوعي بأهمية دور الأسرة والأسباب والحلول الممكنة لمعالجة جمیع أشكال إساءة معاملة الأفراد والعنف في المجتمع.</li>
-                <li>تقدیم الخدمات الجتماعیة و الإغاثیة للمعنفین والمعنفات.</li>
-                <li>تأهيل أفراد الأسرة لبناء بيئة أسرية آمنة.</li>
-                <li>تقديم خدمات الارشاد الاسري لمعالجة المشكلات الاسرية من خلال تقديم الخدمة عبر الهاتف الارشادي وعبر المقابلة.</li>
-                <li>تقديم الدراسات والبحوث الاجتماعية التي تساهم في تحقيق الاستقرار الاسري ومعالجة أسباب العنف وآثاره.</li>
-                <li>تحقيق الاستدامة المالية عبر مشاريع الأوقاف والاستثمارات المتنوعة.</li>
-                <li>تنفيذ مشاريع وبرامج الاستثمار الاجتماعي.</li>
-            </ol>
-        </section>
-
-    </div>
+    <header class="complaints-header">
+        <div class="complaints-container">
+          <h1>الشكاوى والمقترحات</h1>
+        </div>
+      </header>
+    
+      <div class="complaints-div">
+        <div class="complaints-container">
+          <p class="complaints-desc">نسعد بتلقي شكواك أو مقترحك ونعمل جاهدين لتحسين خدماتنا بناءً على ملاحظاتكم.</p>
+    
+          <form class="complaints-form" action="#" method="POST">
+    
+            <div class="complaints-group">
+              <label for="fullname">الاسم الكامل</label>
+              <input type="text" id="fullname" name="fullname" required>
+            </div>
+    
+            <div class="complaints-group">
+              <label for="phone">رقم الجوال</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+    
+            <div class="complaints-group">
+              <label for="email">البريد الإلكتروني</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+    
+            <div class="complaints-group">
+              <label for="type">نوع الرسالة</label>
+              <select id="type" name="type" required>
+                <option value="">اختر نوع الرسالة</option>
+                <option value="complaint">شكوى</option>
+                <option value="suggestion">مقترح</option>
+              </select>
+            </div>
+    
+            <div class="complaints-group">
+              <label for="message">محتوى الرسالة</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+    
+            <div class="complaints-submit">
+              <button type="submit">إرسال</button>
+            </div>
+    
+          </form>
+        </div>
+      </div>
+    
+    
     <footer class="footer" >
         <div>
             <a class="footer-logo" href=""><img src="mail-logo.png" alt=" email ">info@shamll.sa</a>
