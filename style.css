@@ -130,10 +130,11 @@ padding: 0% 1%;
 }
 .footer{
     background-color: #003f58;
-    padding: 1.5rem;
-    display: block;
-    text-align: right;
-    justify-content: space-between;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
 }
 .footer-logo{
     text-decoration: none;
@@ -142,8 +143,11 @@ padding: 0% 1%;
     padding: 0.5rem;
     text-indent: 1rem;
 }
+.footer-location{
+    width: 20rem;
+}
 .footer-location img{
-    width: 30%;
+    width: 100%;
 
 
 }
