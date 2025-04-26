@@ -11,7 +11,26 @@
     font-size: large;
 }
 .nav-logo img {
-height: 5rem;
+    height: 5rem;
+}
+.header-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav-btn{
+    font-size:large;
+  color: white;
+  border: none;
+  background-color:#187483;
+  text-decoration: none;
+  padding: 2%;
+  width: 4rem;
+  border-radius: 10%;
+  text-align: center;
+  margin: 0% 1%;
+
 }
 .nav-bar{
     background-color: #003f58;
@@ -28,6 +47,7 @@ height: 5rem;
   padding-top: 0;
   border: none;
   background-color: #003f58;
+  text-decoration: none;
 }
 .dropdown-content {
     display: none;
@@ -46,15 +66,13 @@ height: 5rem;
 }
 .dropdown:hover .dropbtn {
     color: #187483;
-  }
+}
 .dropdown-content a:hover {
     background-color: #187483;
 }
-
-
 .dropdown:hover .dropdown-content {
-            display: block;
-            background-color: #003f58;
+     display: block;
+     background-color: #003f58;
 }
 .index-pic{
     width: 100%;
@@ -78,7 +96,6 @@ height: 5rem;
 .idext-video{
     text-align: center;
     margin-top: 4%;
-    
 }
 video{
     width: 90%;
@@ -105,7 +122,6 @@ video{
 .div-card{
     width: 20rem;
     text-align: start;
-    
 }
 .div-card img{
     width: 90%;
@@ -126,14 +142,34 @@ padding: 0% 1%;
     background-color: #003f58;
     color: white;
     font-size: large;
-    margin-top: 4%;
+    margin: 5% 0%;
+}
+.index-content-3{
+    padding:1.5rem ;
+    color: #003f58;
+    background-color: #a5a5a520;
+    border-radius: 5%;
+    margin: 2%;
+    text-align: center;
+}
+.div-index-content-3{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.index-content-3 p{
+    font-size: 4rem;
+    color: #187483;
+}
+.index-content-3 h5{
+    font-size: 1rem;
 }
 .footer{
     background-color: #003f58;
     padding: 2rem;
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
     justify-content: space-around;
 }
 .footer-logo{
@@ -142,14 +178,17 @@ padding: 0% 1%;
     display: flex;
     padding: 0.5rem;
     text-indent: 1rem;
+    height: 1.5rem;
+}
+.footer-social-media img {
+    height: 2rem;
+    margin: 3%;
 }
 .footer-location{
     width: 20rem;
 }
 .footer-location img{
     width: 100%;
-
-
 }
 .header {      
     color: rgb(0, 0, 0);
@@ -160,27 +199,22 @@ padding: 0% 1%;
 .content {
     max-width: 1000px;
     margin: auto;
-}
-            
+}         
 .section {
     margin-bottom: 5%;
-}
-            
+}           
 .section h2 {
     color: #a64200;
     margin-bottom: 15px;
-}
-            
+}        
 .section p {
     padding: 1%;
     font-size: 18px;
     line-height: 1.8;
 }
-
 .goals-list{
     padding: 5%;
 }
-
 .goals-list li {
     padding: 1%;
     margin-bottom: 10px;
